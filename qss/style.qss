@@ -1,0 +1,46 @@
+QMainWindow
+{
+    background:rgb(30, 30, 30);
+}
+
+CustomWindowBorder,CustomWindowBorder>*
+{
+    background:rgb(20, 20, 20);
+    color : rgb(255, 255, 255);
+}
+
+CustomWindowBorder>QPushButton#tilte_Button
+{
+    border-radius: 0px; 
+    height : 30px;
+}
+
+CustomWindowBorder>QPushButton#minimize_Screen_Button
+{
+    border-radius: 0px; 
+    height : 30px;
+    background-image : url(:/icon/minimize_icon.png);
+    background-position: center;      
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+CustomWindowBorder>QPushButton#full_Screen_Button
+{
+    border-radius: 0px; 
+    height : 30px;
+    background-image : url(:/icon/fullscreen_icon.png);
+    background-position: center;      
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+CustomWindowBorder>QPushButton#close_Button
+{
+    border-radius: 0px; 
+    height : 30px;
+    background-image : url(:/icon/close_icon.png);
+    background-position: center;      
+    background-repeat: no-repeat;
+    background-size: contain;
+}

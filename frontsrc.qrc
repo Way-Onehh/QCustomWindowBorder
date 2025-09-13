@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/minimize_icon.png</file>
+        <file>icon/fullscreen_icon.png</file>
+        <file>icon/close_icon.png</file>
+        <file>qss/style.qss</file>
+    </qresource>
+</RCC>
